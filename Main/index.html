@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JS Games</title>
+<style>
+	body{
+	margin: 0;
+	padding: 50px;
+	box-sizing: border-box;
+	background-color: rgb(143, 83, 199);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+h3{
+	text-decoration: underline;
+	position: absolute;
+	top: 0;
+	height: 15px;
+	text-align: center;
+}
+.game{
+	display: flex;
+	flex-direction: column;
+}
+
+.game a{
+
+	height: 30px;
+	background-color: burlywood;
+	text-align: center;
+}
+.game a:hover{
+	background-color: rgb(123, 96, 62);
+	cursor: pointer;
+}
+.game a .play{
+	border: transparent;
+	font-size: 20px;
+	font-weight: 700;
+	background: transparent;
+}
+.game a .play:hover{
+	cursor: pointer;
+}
+.game img{
+	height: 400px;
+	width: 500px;
+	border-radius: 20px 20px 0 0;
+}
+@media only screen and (max-width:600px) {
+	.game img{
+		height: 300px;
+	width: 300px;
+	}
+}
+</style>
+</head>
+<body>
+	<h3>For Better Experience Play On Deskstop-Mode</h3>
+		<div class="game">
+			<img src="./assets/Break-Out.png" alt="gameImage">
+			<a href="../Break-Out Game/index.html">
+			<button class="play">Play Now</button>
+			</a>			
+		</div>
+		<div class="game">
+			<img src="./assets/Connect-Four.png" alt="gameImage">
+			<a href="../Connect Four//index.html">
+			<button class="play">Play Now</button>
+			</a>			
+		</div>
+		<div class="game">
+			<img src="./assets/Frooger.png" alt="gameImage">
+			<a href="../Frooger/index.html">
+			<button class="play">Play Now</button>
+		</a>			
+		</div>
+		<div class="game">
+			<img src="./assets/Space-Invaders.png" alt="gameImage">
+			<a href="../Space-invaders/index.html">
+			<button class="play">Play Now</button>
+			</a>			
+		</div>
+		<div class="game">
+			<img src="./assets/Whac-a-Mole.png" alt="gameImage">
+			<a href="../Whac-amole/index.html">
+			<button class="play">Play Now</button>
+			</a>			
+		</div>
+</body>
+</html>

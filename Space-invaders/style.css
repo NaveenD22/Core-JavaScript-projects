@@ -1,0 +1,75 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(97, 181, 181);
+}
+
+.grid {
+	width: 300px;
+	height: 300px;
+	border: solid black 1px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.grid div {
+	width: 20px;
+	height: 20px;
+}
+
+.invader {
+	background-color: purple;
+	border-radius: 10px;
+}
+
+.shooter {
+	background-color: green;
+}
+
+.laser {
+	background-color: orange;
+}
+
+.boom {
+	background-color: red;
+}
+#start{
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	align-items: center;
+	padding: 4px;
+
+}
+.btn{
+
+	cursor: pointer;
+	width: 100px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: blueviolet;
+	border:transparent;
+	font-size: 20px;
+}
+.btn:hover{
+	background-color: rgb(153, 103, 200);
+}
+.reset{
+
+	cursor: pointer;
+	width: 70px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: red;
+	border:transparent;
+	font-size: 20px;
+}
+.reset:hover{
+	background-color: brown;
+}

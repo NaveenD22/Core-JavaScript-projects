@@ -1,0 +1,35 @@
+body{
+  background-color: rgb(75, 202, 202);
+
+}
+#Main-C{
+  width: 100vw;
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  border: 1px solid;
+  height: 120px;
+  width: 140px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid div {
+  height: 20px;
+  width: 20px;
+}
+
+.player-one {
+  background-color: red;
+  border-radius: 10px;
+}
+
+.player-two {
+  background-color: blue;
+  border-radius: 10px;
+}

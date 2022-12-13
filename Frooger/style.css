@@ -1,0 +1,88 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	display: flex;
+	height: 100vh;
+	gap: 10px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(97, 181, 181);
+}
+
+.grid {
+	border: 1px solid black;
+	height: 180px;
+	width: 180px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.grid div {
+	height: 20px;
+	width: 20px;
+}
+
+.ending-block {
+	background-color: red;
+}
+
+.starting-block {
+	background-color: blue;
+}
+.l1, .l2, .l3 {
+	background-color: brown;
+}
+
+.l4, .l5 {
+	background-color: lightblue;
+}
+
+.c1 {
+	background-color: black;
+}
+
+.c2, .c3 {
+	background-color: lightgrey;
+}
+
+.frog {
+	background-color: green;
+}
+
+#start{
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	align-items: center;
+	padding: 4px;
+	margin-top: 20px;
+}
+#start-pause-button{
+
+	cursor: pointer;
+	width: 120px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: blueviolet;
+	border:transparent;
+	font-size: 20px;
+}
+#start-pause-button:hover{
+	background-color: rgb(153, 103, 200);
+}
+
+.reset{
+
+	cursor: pointer;
+	width: 70px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: red;
+	border:transparent;
+	font-size: 20px;
+}
+.reset:hover{
+	background-color: brown;
+}
